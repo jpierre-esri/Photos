@@ -1,0 +1,18 @@
+<div>
+<div id = 'carousel'>
+    <span class = 'carouselButton' data-dojo-attach-point = 'carouselBackButton'>-</span>
+    
+    <span data-dojo-attach-point = "flickrCarousel"></span>
+    <span class = 'carouselButton rightButton' data-dojo-attach-point = 'carouselForwardButton'>+</span>
+</div>
+<div>
+    <span data-dojo-attach-point = "zoomTo" id = "zoomTo" class = 'flickrWidgetButton' data-dojo-attach-event="onclick:_onZoomToClicked"></span><span id = 'widgetTitle' data-dojo-attach-point="widgetTitle">${nls.widgetTitle}</span>
+    <hr class = 'darkLine'>
+
+<div data-dojo-attach-point = "featureDetails"></div>
+<span id = 'explore' class = 'flickrWidgetButton' data-dojo-attach-point = 'exploreButton' data-dojo-attach-event="onclick:_onExploreClicked"></span>
+<span id = 'download' class = 'flickrWidgetButton' data-dojo-attach-point = 'downloadButton' data-dojo-attach-event="onclick:_onDownloadClicked"></span>
+<span id = 'customMap' class = 'flickrWidgetButton' data-dojo-attach-point = 'customMapButton' data-dojo-attach-event="onclick:_onCustomClicked"></span>
+<span id = 'feedback' class = 'flickrWidgetButton' data-dojo-attach-point = 'feedbackButton' data-dojo-attach-event="onclick:_onFeedbackClicked"></span>
+</div>
+</div>

@@ -1,0 +1,23 @@
+{
+"groupId":"11813834@N07",
+"flickrKey":"750b36a2ac65a72e03cf9cef06d79f45",
+"attributeConfig":{
+    "layerName": {
+      "attrName": {
+        "display": true, 
+        "alias": "Great New Name"
+        }
+    },
+    "DataExplorerMapServiceMunicipal - Roads": {
+        "rtename1fr": {
+          "alias": "Nom",
+          "title": true
+          },
+          "l_hnumf": {
+            "alias": "Left House First Number",
+            "display": true
+            }
+      }        
+}
+
+}

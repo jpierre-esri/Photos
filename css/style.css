@@ -1,0 +1,80 @@
+.carouselCard {
+    width: 80%;
+    display: none;
+    position: relative;
+    left: 10%
+}
+
+.carouselButton {
+  position: absolute;
+  display: block;
+  top: 100px;
+  cursor: pointer;
+}
+
+.rightButton {
+    right:0px;
+}
+
+#feedback {
+    background-image: url('../images/ToolIcon_Feedback.png');
+}
+
+#explore {
+    background-image: url('../images/ToolIcon_Explore.png'); 
+}
+
+#download {
+    background-image: url('../images/ToolIcon_Download.png');
+}
+
+#customMap {
+    background-image: url('../images/ToolIcon_CreateMap.png');
+}
+
+#veloIcon {
+    background-image: url('../images/ToolIcon_Cyclist.png');
+}
+
+#zoomTo {
+    background-image: url('../images/ToolIcon_ZoomTo.png'); 
+}
+
+.flickrWidgetButton {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background: no-repeat scroll center 1px / 30px auto;
+    display: inline-block;
+}
+
+#carousel {
+    font-family: "Open Sans";
+    font-size: 24px;
+    padding-bottom:10px;
+}
+
+.attrName {
+    font-weight: bold;
+}
+
+
+hr.darkLine {
+    margin: 15px;
+    border: 0; 
+    height: 1px; 
+    background-color: #333333;
+}
+
+hr.lightLine {
+    margin: 15px;
+    border: 0; 
+    height: 1px; 
+    background-color: #dddddd;
+}
+
+#widgetTitle {
+    font-size: 25px;
+    bottom: 15px;
+    position: relative;
+}
